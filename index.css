@@ -1,4 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+/* Tablets 
+
+@media (min-device-width: 800px) and (max-device-width: 1280px) {}
+
+*/
+
+
+/* Laptops 
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+
+*/
+
+
+/*
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+//CSS Code
+}
+
+*/
+
+
+/*CSS STYLE*/
+
 * {
     margin: 0;
     padding: 0;
@@ -299,7 +322,7 @@ input[type="email"] {
     border-radius: 2px;
 }
 
-::placeholder {
+ ::placeholder {
     color: #A6A5AA;
 }
 
@@ -342,182 +365,4 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
-}
-
-
-/* responsive */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-    div.nav-bar {
-        display: flex;
-        flex-direction: row;
-    }
-    div.logo {
-        font-size: 1rem;
-    }
-    ul.nav-links {
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-    ul li {
-        margin: 0 1vw;
-        font-size: 0.9rem;
-    }
-    ul li a {
-        padding: 0.3vw;
-    }
-    ul li a:hover {
-        padding: 0.25rem;
-    }
-    div.hero-section {
-        padding: 5rem;
-    }
-    div.hero-content-heading h3 {
-        font-size: 15px;
-        letter-spacing: 0.8px;
-        font-weight: 250;
-    }
-    div.hero-content-heading p {
-        padding-top: 0.3rem;
-        font-size: 15px;
-        letter-spacing: 1px;
-        font-weight: 250;
-    }
-    div.hero-content-btn {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-    }
-    div.hero-content-btn a {
-        font-size: 0.9rem;
-        padding: 5px 15px;
-        border-radius: 0.5px;
-        letter-spacing: 0.7px;
-    }
-    div.hero-background {
-        padding: 5rem;
-    }
-    div.background {
-        padding: 8px 15px;
-        width: 500px;
-        height: 200px;
-    }
-    div.background h4 {
-        padding: 1rem;
-        font-size: 1.3rem;
-        letter-spacing: 1px;
-    }
-    div.background p {
-        padding-left: 6px;
-        font-size: 1rem;
-        letter-spacing: 1px;
-    }
-    div.hero-background-pos {
-        display: none;
-    }
-    div.snapshot-team {
-        padding-top: 1rem;
-    }
-    div.snapshot-team h2 {
-        font-size: 1rem;
-        letter-spacing: 1px;
-    }
-    div.snapshot-team p {
-        font-size: 17px;
-    }
-    div.snapshot-box {
-        padding: 30px 0;
-    }
-    div.snapshot-box-content {
-        display: flex;
-        flex-direction: column;
-    }
-    div.box1,
-    div.box3 {
-        width: 300px;
-        height: 230px;
-    }
-    div.box3 h5,
-    div.box1 h5 {
-        text-align: center;
-        padding-top: 15px;
-        font-size: 15px;
-    }
-    div.circle {
-        display: flex;
-        margin: 0 auto;
-        width: 98px;
-        height: 100px;
-        border-radius: 50%;
-        margin-top: 20px;
-    }
-    div.gallery-section {
-        padding: 24px;
-    }
-    div.gallery-content h4 {
-        font-size: 6px;
-        letter-spacing: 0.5px;
-    }
-    div.gallery-content p {
-        font-size: 6px;
-        letter-spacing: 0.7px;
-        padding-top: 0.35px;
-    }
-    div.img {
-        margin: 3px;
-    }
-    div.img img {
-        width: 200px;
-        height: 150px;
-    }
-    div.footer {
-        padding: 1rem;
-    }
-    div.footer-content h4 {
-        padding-top: 15px;
-        font-size: 1.2rem;
-        letter-spacing: 1.5px;
-    }
-    div.footer-content p {
-        font-size: 0.8rem;
-        letter-spacing: 1.5px;
-        padding-top: 0.4rem;
-    }
-    div.footer-input {
-        display: flex;
-        flex-direction: column;
-        padding-top: 2rem;
-    }
-    input[type="text"],
-    input[type="email"] {
-        margin: 7px;
-        padding: 7px 15px;
-        width: 20%;
-        border: 0.7px solid #bcc3c7;
-        font-size: 0.8rem;
-        border-radius: 1.5px;
-    }
-    div.footer-textarea {
-        padding-top: 1.5rem;
-    }
-    textarea {
-        width: 40%;
-        height: 140px;
-        padding: 0.3rem;
-        border: 0.7px solid #bcc3c7;
-    }
-    div.footer-btn {
-        padding-top: 1rem;
-    }
-    div.footer-btn a {
-        letter-spacing: 1.4px;
-        font-size: 0.65rem;
-        padding: 15px 40px;
-        border-radius: 1.5px;
-    }
-    div.footer h6 {
-        font-size: 0.8rem;
-        padding-top: 5rem;
-    }
 }
